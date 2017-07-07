@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-xs-3">
+    <div class="flag">
+      <div class="first-name">{{profile.firstName}}</div>
+      <div class="last-name">{{profile.lastName}}</div>
+    </div>
+  </div>
+  <div class="col-xs-9" style="padding-left:0px;">
+    <div class="info-box">
+      <div class="row">
+        <div class="col-xs-9" style="padding-left:0px;">
+          {{profile.profileText}}
+        </div>
+        <div class="col-xs-3">
+          <img class="profile-pic" style="height:120px;" src="{{profile.profilePicture}}"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="banner">
+  <div class="row">
+    <div class="col-xs-4" style="text-align:left">{{profile.city}}, {{profile.province}}</div>
+    <a href="mailto:{{profile.email}}"><div class="col-xs-4" style="text-align:center">{{profile.email}}</div></a>
+    <div class="col-xs-4" style="text-align:right">{{profile.phone}}</div>
+  </div>
+</div>    
+
+

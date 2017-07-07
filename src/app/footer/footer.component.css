@@ -1,0 +1,30 @@
+.footer{
+    line-height:0.6cm;
+    height:1.2cm;
+    position: relative;
+    background-color:#33333A;
+    box-shadow: 2px 1px 5px #888888;
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 0.4cm solid #77BBDD;
+  border-top: 0.6cm solid transparent;
+  border-bottom: 0.6cm solid transparent;
+}
+.footer .top-text{
+    margin-top:4px;
+    font-size:26px;
+}
+.footer .bottom-text{
+    margin-top:-1px;
+    font-size:17px;
+    color:#77BBDD;
+}

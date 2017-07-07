@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=News+Cycle'); 
+
+body {
+    font-family: 'News Cycle', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.fixedbutton {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}

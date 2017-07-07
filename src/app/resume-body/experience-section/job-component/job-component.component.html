@@ -1,0 +1,35 @@
+<div  (mouseenter)="expandDetails(detDiv.scrollHeight)" (mouseleave)="hideDetails()">
+  <div class="row">
+    <div class="col-xs-7" style="padding-right:0px;">
+      <div>
+        <b>{{job.jobTitle}}</b>
+      </div>
+      <div style="font-size:13px;">
+        <a href="{{job.companyWeb}}" target="_blank">{{job.companyName}}</a> {{job.companyLocation}}
+      </div>
+    </div>
+    <div class="col-xs-5" style="text-align:right; font-size:13px;">
+      {{job.duration}}
+    </div>
+  </div>
+  <div style="padding-top:3px; text-align:justify">
+    {{job.jobSummary}}
+  </div>
+  <div class="details" [ngStyle]="{'height':height + 'px'}" #detDiv>
+    <div *ngFor="let jobPara of job.jobDetails" style="padding-top:7px; text-align:justify">
+      {{jobPara}}
+    </div>
+  </div>
+  
+  <div class="hoverDiv" style="padding:4px; width:100%; text-align:center; cursor:pointer" (click)="showRefInfo = !showRefInfo">
+    <img src="../../../assets/icons/reference.png" alt="Reference" style="height:12px; margin-top:-2px;"> {{job.reference.name}} - {{job.reference.title}}
+  </div>
+  <div *ngIf="showRefInfo" style="width:100%; text-align:center;">
+    <div>
+      p. {{job.reference.phone}}
+    </div>
+    <div>
+      e. {{job.reference.email}}
+    </div>
+  </div>
+</div>

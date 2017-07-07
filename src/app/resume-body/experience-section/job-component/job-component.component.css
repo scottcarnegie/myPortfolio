@@ -1,0 +1,7 @@
+.hoverDiv {background: #fff;}
+.hoverDiv:hover {background: #f5f5f5;}
+.details{
+    overflow: hidden;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+}

@@ -1,0 +1,11 @@
+<div class="footer">
+  <div class="row">
+    <div class="col-xs-2" style="text-align:center" *ngFor="let socialLink of profile.socialLinkList">
+      <a href={{socialLink.link}}>
+        <img
+          style="height:35px; margin-top:5px;" 
+          src="{{socialLink.icon}}"/>
+      </a>
+    </div> 
+  </div>
+</div>

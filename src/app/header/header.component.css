@@ -1,0 +1,62 @@
+.flag {
+  width: 1.4in;
+  height: 1.4in;
+  padding-top: 15px;
+  position: relative;
+  background: #33333A;
+  color: white;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 2px 1px 5px #888888;
+}
+
+.flag .first-name{
+    padding-top:8px;
+    padding-left:4px;
+    font-size:0.40in;
+    letter-spacing: 0.13em;
+}
+
+.flag .last-name{
+    margin-top:-0.15in;
+    font-size:0.32in;
+    letter-spacing: 0em;
+    /*color: #FF533D;*/
+    color: #77BBDD;
+}
+
+.info-box{
+    width:100%;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    padding:12px;
+    padding-bottom:0px;
+    font-size:14px;
+    line-height:22px;
+    text-align: justify;
+}
+
+.banner{
+    margin-top:-8px;
+    line-height:0.6cm;
+    height:0.6cm;
+    border-radius:1px;
+    border: solid transparent 1px;
+    background-color:#77BBDD;
+    color:white;  
+    box-shadow: 2px 1px 5px #888888;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.profile-pic{
+    border:1px transparent;
+    /*border-radius:60px;*/
+    margin-left:-15px;
+    margin-top:-5px;
+}
+a{
+    color:white;
+}

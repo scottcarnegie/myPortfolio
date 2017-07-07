@@ -1,0 +1,27 @@
+<div class="education-section">
+  <div class="row">
+    <div class="col-xs-2" style="text-align:right;">
+      <div class="education-icon glyphicon glyphicon-download"></div>
+    </div>
+    <div class="col-xs-10">
+      <h1>Education</h1>
+    </div>
+  </div>
+  <hr>
+  <h4 style="padding:0px; margin-top:0px;">Academic</h4>
+  <table class="table table-hover" style="margin:0px;">
+    <tbody>
+      <tr *ngFor="let curProg of profile.schoolList">
+        <app-program-component [program]="curProg"></app-program-component>
+      </tr>  
+    </tbody>
+  </table>
+  <h4 style="padding:0px; margin-top:0px;">Professional</h4>
+  <table class="table table-hover" style="margin:0px;">
+    <tbody>
+      <tr *ngFor="let curCourse of profile.courseList">
+        <app-course-component [course]="curCourse"></app-course-component>
+      </tr>  
+    </tbody>
+  </table>
+</div>

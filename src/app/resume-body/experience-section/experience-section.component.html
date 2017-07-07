@@ -1,0 +1,12 @@
+<div class="experience-section">
+  <div class="row">
+    <div class="col-xs-2" style="text-align:right;">
+      <div class="experience-icon glyphicon glyphicon-check"></div>
+    </div>
+    <div class="col-xs-10">
+      <h1>Experience</h1>
+    </div>
+  </div>
+  <hr>
+  <app-job-component *ngFor="let jobItem of profile.experienceList" [job]="jobItem"></app-job-component> 
+</div>

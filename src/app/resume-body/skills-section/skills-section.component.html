@@ -1,0 +1,12 @@
+<div class="skills-section">
+  <div class="row">
+    <div class="col-md-2" style="text-align:right;">
+      <div class="skills-icon glyphicon glyphicon-stats"></div>
+    </div>
+    <div class="col-md-10">
+      <h1>Skills</h1>
+    </div>
+  </div>
+  <hr>
+  <app-skill-item *ngFor="let skill of profile.skillList" [skillname]='skill.skill' [skilllevel]='skill.rating'></app-skill-item>
+</div>

@@ -1,0 +1,16 @@
+<div class="languages-section">
+  <div class="row">
+    <div class="col-xs-2" style="text-align:right;">
+      <div class="languages-icon glyphicon glyphicon-console"></div>
+    </div>
+    <div class="col-xs-10">
+      <h1>Languages</h1>
+    </div>
+  </div>
+  <hr>
+  <div class="row" style="padding-left:5px;">
+    <div style="display:inline-block; padding:0; margin-bottom:-5px;" *ngFor="let lang of profile.languageList; let i = index">
+      <span class="language-letters" [ngStyle]="getStyle(lang.rating)" style="text-align:center;">{{lang.name}}</span>
+    </div>
+  </div>  
+</div>

@@ -1,0 +1,21 @@
+<div class="row" style="padding:5px;" [ngStyle]="{'cursor': program.documentUrl !== '' ? 'pointer' : ''}" (click)="showDocument()">
+  <div class="col-xs-3">
+    <img src="{{program.imageUrl}}" alt="{{program.institutionName}}" style="width:100%"/>
+  </div>
+  <div class="col-xs-7">
+    <div style="font-size:14px;">
+      <b>{{program.programName}}</b>
+    </div>  
+    <div>
+      <b>{{program.institutionName}}</b>
+      {{program.institutionLocation}}
+    </div>
+    <div>
+      {{program.certificate}}
+    </div>
+  </div>
+  <div class="col-xs-2" style="text-align:right;">
+    {{program.endDate}}
+  </div>
+</div>
+<a #downloadLink *ngIf="program.documentUrl !== ''" href="{{program.documentUrl}}" target="_blank"></a>

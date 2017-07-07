@@ -1,0 +1,17 @@
+<div class="interests-section" style="padding-bottom:0px;">
+  <div class="row">
+    <div class="col-xs-2" style="text-align:right;">
+      <div class="interests-icon glyphicon glyphicon-flash"></div>
+    </div>
+    <div class="col-xs-10">
+      <h1>Interests</h1>
+    </div>
+  </div>
+  <hr>
+  <div class="row" style="padding-top:3px; margin-bottom:0px;">
+    <div class="col-xs-4" style="text-align:center;" *ngFor="let interest of profile.interestList; let i = index">
+      <img style="height:25px;" src="{{interest.url}}" />
+      <p>{{interest.name}}</p>
+    </div>
+  </div>    
+</div>
