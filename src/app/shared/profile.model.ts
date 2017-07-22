@@ -66,9 +66,16 @@ export class Profile {
         this.courseList = [
                 {
                     name:"Angular 4 - The Complete Guide",
-                    completeDate:"IP",
+                    completeDate:"2017",
                     imageUrl:"../../../assets/images/udemy.png",
                     documentUrl:"https://www.udemy.com/the-complete-guide-to-angular-2/",
+                    provider:"Udemy"
+                },
+                {
+                    name:"Complete PHP MySQL Professional Course",
+                    completeDate:"2017",
+                    imageUrl:"../../../assets/images/udemy.png",
+                    documentUrl:"https://www.udemy.com/certificate/UC-HKIICOP8/",
                     provider:"Udemy"
                 },
                 {
@@ -77,20 +84,6 @@ export class Profile {
                     imageUrl:"../../../assets/images/udemy.png",
                     documentUrl:"https://www.udemy.com/certificate/UC-Z2B2VKRE/",
                     provider:"Udemy"
-                },
-                {
-                    name:"Customer Immersion Experience Facilitator",
-                    completeDate:"2016",
-                    imageUrl:"../../../assets/images/microsoft.ico",
-                    documentUrl:"http://cie.brainstorminc.com/",
-                    provider:"Microsoft"
-                },
-                {
-                    name:"Front End Development Course",
-                    completeDate:"2016",
-                    imageUrl:"../../../assets/images/freecodecamp.png",
-                    documentUrl:"http://freecodecamp.com/scottcarnegie/front-end-certification",
-                    provider:"Free Code Camp"
                 }
             ];
         
@@ -100,7 +93,7 @@ export class Profile {
             {
                 companyName:"Orangutech Ltd.",
                 companyWeb:"http://www.orangutech.com",
-                jobTitle:"Director, Project Delivery and Operations",
+                jobTitle:".NET Developer  |  Director of Operations",
                 companyLocation:"Ottawa, Ontario",
                 duration:"10/2015 - 05/2017",
                 jobSummary:`
@@ -117,23 +110,23 @@ export class Profile {
                     our clients to ensure projects were delivered to their satisfaction and 
                     within budget. My job required a high level of engagement with both clients
                     and developers from inception through to solution support. On a daily basis,
-                    I lead team scrums to discuss project status, share achievements and
+                    I led team scrums to discuss project status, share achievements and
                     eliminate roadblocks.
                     `,
                     `
-                    In parallel with my Director role, I developed plug-ins and web resources for Dynamics CRM 
-                    using JavaScript and C#, as well as the native customization and configuration tools. 
-                    I worked closely with a large turbine testing company to implement an optimized system
-                    to manage their sales prospects and internal service support tickets.
+                    In parallel with my Director role, I developed SharePoint solutions, plug-ins and web 
+                    resources for Dynamics CRM using JavaScript and C#, in addition to the native customization
+                    tools. I worked closely with a large turbine testing company to implement an optimized CRM 
+                    system to manage their sales prospects and internal service support tickets.
                     `,
                     `
-                    Through the duration of my time at Orangutech, I have been managing our most 
+                    Through the duration of my time at Orangutech, I was managing our most 
                     valued client to support and enhance their highly-customized survey collection 
                     system as both a business analyst and SharePoint developer. The solution is 
                     centralized in SharePoint, and uses Dynamics CRM to manage contacts and issue 
-                    bulk emails. Visual Studio workflows and web services are used to parse survey 
-                    data and transform it to an SQL table. To support the project, I am required 
-                    to perform .Net development, web development, SQL development as well configuration 
+                    bulk emails. Visual Studio workflows and web services were used to parse survey 
+                    data and transform it to an SQL table. While on the project, I was required 
+                    to perform .NET development, web development, SQL development as well configuration 
                     of each system.
                     `
                 ],
@@ -173,14 +166,6 @@ export class Profile {
                     finite element models, advanced calculus solutions to predict theoretical 
                     dome stresses, as well as installation drawings and material lists for 
                     installation at site.
-                    `,
-                    `
-                    After two years, I was promoted to an Intermediate role and transferred
-                    to the Furnace Technologies Group, where I worked with a smaller, more 
-                    specialized team on the redesign of a failed furnace where I produced 
-                    finite element models, advanced calculus solutions to predict theoretical 
-                    dome stresses, as well as installation drawings and material lists for 
-                    installation at site.
                     `
                 ],
                 reference:{
@@ -195,7 +180,6 @@ export class Profile {
         // Skills Section
         
         this.skillList = [
-            {skill:"Agile Project Management", rating:80},
             {skill:"Client Engagement", rating:85},
             {skill:"Project/Work Planning", rating:80},
             {skill:"Public Speaking", rating:70},
@@ -203,7 +187,6 @@ export class Profile {
             {skill:"CRM Customization", rating:70},
             {skill:"Business Analytics",rating:85},
             {skill:"Technical Sales",rating:80},
-            {skill:"SOW/Proposal Writing",rating:75}
         ];
 
         // Social Links
@@ -228,6 +211,7 @@ export class Profile {
             {name:"Java",rating:3},
             {name:"JavaScript",rating:8},
             {name:"MATLAB",rating:3},
+            {name:"PHP", rating:6},
             {name:"PowerShell",rating:4},
             {name:"SQL",rating:10},
             {name:"TypeScript",rating:6},
@@ -237,12 +221,9 @@ export class Profile {
         // Interests
 
         this.interestList = [
-            {name:"Swimming",url:"../../assets/icons/interests/swimming.png"},
-            {name:"Biking",url:"../../assets/icons/interests/biking.png"},
-            {name:"Running",url:"../../assets/icons/interests/running.png"},
-            {name:"Guitar",url:"../../assets/icons/interests/guitar.png"},
-            {name:"Podcasts",url:"../../assets/icons/interests/microphone.png"},
-            {name:"Reading",url:"../../assets/icons/interests/reading.png"}
+            {name:"Triathlons",url:"../../assets/icons/interests/swimming.png"},
+            {name:"Music",url:"../../assets/icons/interests/guitar.png"},
+            {name:"Podcasts",url:"../../assets/icons/interests/microphone.png"}
         ]
 
     }

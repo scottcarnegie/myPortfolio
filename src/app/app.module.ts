@@ -18,6 +18,7 @@ import { CourseComponentComponent } from './resume-body/education-section/course
 import { JobComponentComponent } from './resume-body/experience-section/job-component/job-component.component';
 
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { CodeExamplesSectionComponent } from './resume-body/code-examples-section/code-examples-section.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
     LanguagesSectionComponent,
     ProgramComponentComponent,
     CourseComponentComponent,
-    JobComponentComponent
+    JobComponentComponent,
+    CodeExamplesSectionComponent
   ],
   imports: [
     BrowserModule,
